@@ -1,0 +1,164 @@
+# print("enter marks")
+# x=input()
+
+# print("enter marks")
+# y=input()
+
+# print("enter marks")
+# z=input()
+
+# if x>y:
+#     print("x is greater than y")
+#     if x>z:
+#         print("x is greater than z")
+#     else:
+#         print("z is greater than x")
+
+# else:
+#     if y>z:
+#         print("y is greater than z")
+#     else:
+#         print("z is greater than y")
+
+// #wap to accept perecentage and if per 
+// per = int(input("enter your percentage:"))
+// if per >= 90:
+//      print("graed a")
+// elif per>=80 and per<90:
+//     print("gread b")
+// elif per>=60 and per<80:
+//     print("gread c")
+// else:
+//     print("fail")
+
+#indexing and slicing are not possible in dictionary(key)
+// mydict = {
+//     "name": "adi",
+//     "professional": "developer",
+//     "empid":1001
+// }
+// print(mydict)
+// print(type(mydict)) #type gives data type class
+
+// mydict = {
+//  101: "adi",
+//  102: "anish",
+//  "103": "mohini",
+//  "104": "tri",
+//  101: "anish",
+//  104: "anish"
+// }
+// print(mydict)
+
+// #with the help of key we print
+// a = mydict[102]
+// print(a)
+// #replace old value by new
+// mydict[102]="peter"
+// print(mydict)
+// #only print key x=0,1
+// for x in mydict:
+//   print(x)
+// for x in mydict.values():
+//   print(x)
+// #printing key and values both
+// for x,y in mydict.items():
+//   print(x,y)
+// mydict["mobile_no"]= 4567
+// print(mydict)
+// #pop
+// mydict.pop(101)
+// print(mydict)
+
+// name = "aditikumar"
+// #indexing=012345678910
+// print(name[0]) 
+// print(name[1]) 
+// print(name[-1]) 
+// #print(name[15]) #error string index out of range 
+// print(name[0:5]) 
+// print(name[1:]) 
+// print(name[:5]) 
+// print(name[:])
+// print(name[1:8:2]) #incremented by 2
+// print(name[::-1]) #reverse print
+//  // output:a
+// d
+// r
+// aditi
+// ditikumar
+// aditi
+// aditikumar
+// dtkm
+// ramukitida
+
+// s = "help4code is best plateform for practicing prog"
+// print(s.find("help4code"))
+// print(s.find("python"))
+// print(s.find("prog"))
+
+// s ="aditi","anisha","roohi"
+// m = '|'.join(s)
+// print(m)
+
+// s = "python is a HIGH level PROGramming language"
+// print(s.lower())
+// print(s.upper())
+// print(s.swapcase())
+// print(s.title())
+// print(s.capitalize())
+
+// print('Subjects Marks :')
+// phy = 50
+// chem = 60
+// math = 70
+// print("physics ={} chemistry={} math={}".format(phy,chem,math))
+// print("physics ={0} chemistry={1} math={2}".format(phy,chem,math))
+// print("physics ={x} chemistry={y} math={z}".format(x=phy,y=chem,z=math))
+// total = phy+chem+math
+// print("Total Marks",f" {total}")
+// print("roll no =", "7".zfill(4))
+
+// print('aditikumar777'.isalnum()) #true
+// print('aditikumar777'.isalpha()) #true
+// print('777f'.isdigit()) 
+// print('hwefcihebv'.islower())
+// print(''.islower())
+// print('ADITI'.isupper())
+// print('MY NAME IS ADITI'.istitle()) 
+// print(''.istitle())
+// print(''.isspace()) 
+// print('Hello'.startswith("He")) 
+// print('He'.endswith("lo"))
+
+// #BODMAS
+// a=50
+// b=30
+// c=20
+// d=10
+// print((a+b)*c/d)
+// print((a-b)*(c/d))
+// print(a+(b*c)/d)
+#boolean
+// x=['a','b','c']
+// y=['a','b','c']
+// z=[1,2,3,4]
+// print(x==y)
+// print(x==z)
+// print(z !=z)
+
+// name = "aditi"
+// for i in name:
+//   print(i) #i=0
+
+// name ="aditi"
+// data = ['a','e','i','o','u']
+// vowel =0
+// con =0
+// for i in name:
+//   if i in data:
+//       vowel += 1
+//   else:
+//       con += 1
+// print("vowels=",vowel)
+// print("consonent=",con)
